@@ -32,6 +32,16 @@ run bundle install
 run pip install -r requirements.txt
 ```
 
+### `create_sample_file`
+
+Creates a file with content copied from sample one.
+
+```sh
+create_sample_file .env
+```
+
+This one will create a file `.env` with content from `.env.sample` and open editor with it so user can change it.
+
 ## Updating
 
 If you want to update core scripts, run:
