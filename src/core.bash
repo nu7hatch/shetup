@@ -187,3 +187,36 @@ run()
 
     check_success "Ok!"
 }
+
+# Checks if there's a *.sample version of given file. If target file
+# doesn't exist, it creates it and opens editor.
+#
+# Usage:
+#
+#   edit_sample_file .env
+#
+edit_sample_file()
+{
+    file=$1
+
+    check_title "Creating ./$file from sample file"
+
+    if [ "$EDITOR" == "" ]; then
+        check_warn "\$EDITOR not set. Trying to use nano"
+        EDITOR=$(command -v nano)
+
+        if test x$EDITOR = x ; then
+            check_error "Not found!"
+            raise "You don't have any configured editor. Install or configure one!"
+        fi
+    fi
+
+    if [ -f $file ]; then
+        check_success "Exists!"
+    else
+        cp $PWD/${file}.sample $PWD/$file
+        check_warn "Editing!"
+        $EDITOR .env || true
+        echo
+    fi
+}
