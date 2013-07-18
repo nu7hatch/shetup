@@ -1,13 +1,13 @@
 # Setup scripts
 
-This is a collection of setup scripts used across all the projects.
+This is a collection of setup scripts to use across the projects.
 Setup scripts are used to speed up project's bootstrap time.
 
 ## Getting started
 
 If you're adding setup scripts to your project, run:
 
-    $ https://github.com/mirstack/setup/tree/master/init.sh | bash
+    $ https://github.com/nu7hatch/setup/tree/master/init.sh | bash
 
 ## Helpers
 
@@ -35,7 +35,7 @@ run pip install -r requirements.txt
 
 If you want to update core scripts, run:
 
-    $ https://github.com/mirstack/setup/tree/master/update.sh | bash
+    $ https://github.com/nu7hatch/setup/tree/master/update.sh | bash
 
 ## Contributing
 
