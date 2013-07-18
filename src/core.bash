@@ -157,7 +157,8 @@ check_cmd()
     installed_version=`$cmd --version 2>&1`
     if test x$? != x0 ; then
         installed_version=`$cmd -v 2>&1`
-        if test x$? != x0 ; then
+        rc=$?
+        if test x$rc != x0 && test x$rc != x255; then
             check_error "Unknown!"
             raise "Couldn't figure out what version of $exe is installed!"
         fi
