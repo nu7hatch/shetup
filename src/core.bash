@@ -48,7 +48,7 @@ check_error()
 #
 check_warn()
 {
-    echo -n "${yellow}$@...${reset}"
+    echo -n "${yellow}$@... ${reset}"
 }
 
 # Displays success result of the operation.
