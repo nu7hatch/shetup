@@ -1,0 +1,9 @@
+2013-07-17  Chris Kowalik  <chris@nu7hat.ch>
+
+	* src/core.bash: Core setup utilities.
+
+	* README.md: Basic docs.
+
+	* init.sh: Simple installator.
+
+	* update.sh: Simple updater.

@@ -13,7 +13,7 @@ If you're adding setup scripts to your project, run:
 
 Here's the list of helpers and tools provided by the core scripts.
 
-### check_cmd
+### `check_cmd`
 
 Checks if given command is installed.
 
@@ -22,7 +22,7 @@ check_cmd git
 check_cmd ruby 2.0.0
 ```
 
-### run
+### `run`
 
 Executes specified command or script:
 
