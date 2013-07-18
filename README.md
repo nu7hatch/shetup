@@ -8,7 +8,7 @@ Setup scripts are used to speed up project's bootstrap time.
 If you want to add *shetup* to your project, or you want to update existing
 installation, just run this script:
 
-    $ http://git.io/Kb7uuQ | bash
+    $ curl -L 'http://git.io/o_-kQQ' | bash
 
 ## Helpers
 
