@@ -40,6 +40,17 @@ check_error()
     echo "${red}$@${reset}"
 }
 
+# Displays warning related to the operation.
+#
+# Usage:
+#
+#   check_warn "Some warning"
+#
+check_warn()
+{
+    echo -n "${yellow}$@...${reset}"
+}
+
 # Displays success result of the operation.
 #
 # Usage:
