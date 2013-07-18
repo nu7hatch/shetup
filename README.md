@@ -5,9 +5,10 @@ Setup scripts are used to speed up project's bootstrap time.
 
 ## Getting started
 
-If you're adding setup scripts to your project, run:
+If you want to add *shetup* to your project, or you want to update existing
+installation, just run this script:
 
-    $ https://github.com/nu7hatch/setup/tree/master/init.sh | bash
+    $ http://git.io/Kb7uuQ | bash
 
 ## Helpers
 

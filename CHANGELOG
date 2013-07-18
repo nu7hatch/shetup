@@ -4,6 +4,4 @@
 
 	* README.md: Basic docs.
 
-	* init.sh: Simple installator.
-
-	* update.sh: Simple updater.
+	* up.sh: Simple installer and updater.
